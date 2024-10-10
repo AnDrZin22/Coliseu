@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coliseu de Roma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffbd80;
+}
+
+header {
+    background: #3b3b3b;
+    color: #ffc87f;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffd0a4;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h2 {
+    border-bottom: 2px solid #3b3b3b;
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #3b3b3b;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+
+
+
+
+</style>
+
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Coliseu de Roma</h1>
+            <nav>
+                <ul>
+                    <li><a href="#historia">História</a></li>
+                    <li><a href="#arquitetura">Arquitetura</a></li>
+                    <li><a href="#visitas">Visitas</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="historia">
+            <h2>História</h2>
+            <p>O Coliseu, também conhecido como Anfiteatro Flaviano, foi construído entre 70 e 80 d.C. durante o reinado dos imperadores Vespasiano e Tito. Era utilizado para espetáculos públicos, como lutas de gladiadores e eventos teatrais.</p>
+        </section>
+
+        <section id="arquitetura">
+            <h2>Arquitetura</h2>
+            <p>Com capacidade para cerca de 50.000 espectadores, o Coliseu é uma das maiores e mais impressionantes estruturas da Roma Antiga. Sua arquitetura é um exemplo notável do uso do arco e do concreto.</p>
+        </section>
+
+        <section id="visitas">
+            <h2>Visitas</h2>
+            <p>Hoje, o Coliseu é uma das atrações turísticas mais populares do mundo. Recomenda-se comprar ingressos antecipadamente para evitar filas longas.</p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div class="gallery">
+                <img src="coliseu-roma.jpg" alt="Coliseu durante o dia">
+                <img src="Panoramic_photograph_of_interior_of_Colosseum.jpg" alt="Coliseu à noite">
+                <img src="Coliseu-de-Roma-tuneis.jpeg" alt="Interior do Coliseu">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Coliseu de Roma</p>
+    </footer>
+</body>
+</html>
